@@ -1,7 +1,7 @@
 export const projectsArray = [
     {
         id: 1,
-        name: 'Project 1',
+        name: 'New York Highway',
         description: 'This is the first project',
         projectType: "Residentail",
         initialBudget: "$2,000,000",
@@ -27,7 +27,7 @@ export const projectsArray = [
     },
     {
         id: 2,
-        name: 'Project 2',
+        name: 'The west beach',
         description: 'This is the second project',
         projectType: "Residentail",
         initialBudget: "$2,000,000",
@@ -53,7 +53,7 @@ export const projectsArray = [
     },
     {
         id: 3,
-        name: 'Project 3',
+        name: 'Allstate Corp',
         description: 'This is the third project',
         projectType: "Residentail",
         initialBudget: "$2,000,000",

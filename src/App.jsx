@@ -3,10 +3,12 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Project from './Components/Project'
+import { projectsArray } from '../data/projects'
+
 
 function App() {
- // const [project, setProject] = useState(projects)
-
+  const [projects, setProject] = useState(projectsArray)
+  // console.log(projects);
   return (
     <>
       <div className="projectAppMainContainer">
@@ -25,9 +27,10 @@ function App() {
           </div>
         </div>
         <div className="homePageMainContainer">
-          <h3 className="ourProjects">Our Projects</h3>            
-          <Project />
-          </div>
+            {projects.map((project, index) => ( 
+            <Project key={index} project={project}/>
+            ))}
+        </div>
         <p className='copyRight'>© 2025 Construction Corp. All Rights Reserved.</p>
       </div>
     </>

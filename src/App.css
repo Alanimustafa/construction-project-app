@@ -1,7 +1,7 @@
 body {
   background-color: aliceblue;
-  display: block;
-  align-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .projectAppMainContainer {
@@ -9,26 +9,29 @@ body {
   background-color: rgb(2, 54, 61);
   border: solid black 3px;
   border-radius: 3px;
-  width: 95vw;
-  height: 95vh;
+  width: 96vw;
+  height: 96%;
+  min-height: 98vh;
   justify-self: center;
-  align-self: center;
   box-shadow: black 0px 0px 20px;
-
+  flex-wrap: wrap;
 }
 
 .headerHomePage {
   display: flex;
   background-color: rgb(3, 36, 37);
-  /* border: orange solid 2px; */
   border-radius: 0px;
-  box-shadow: wheat 0px 5px 1px;
+  box-shadow: wheat 0px 3px 1px;
   height: 5vh;
-  width: 97%;
-  justify-self: center;
+  width: 92vw;
   align-items: center;
   margin-top: 1vh;
-  padding: 2vh
+  padding: 1vh;
+  position: fixed;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
 }
 
 .logo {
@@ -51,6 +54,9 @@ body {
   align-items: center;
   margin: 3vh;
   width: 90%;
+  top: 10%;
+  position: fixed;
+  z-index: 9999;
 }
 
 .currentProjectsButton {
@@ -81,6 +87,7 @@ button {
   background-color: rgb(1, 70, 82);
   border: solid darkgray 3px;
   cursor: pointer;
+  flex-wrap: wrap;
 }
 
 button:hover {
@@ -90,12 +97,21 @@ button:hover {
 }
 
 .homePageMainContainer {
+  display: flex;
+  position: relative;
+  top: 18%;
   border: wheat solid 2px;
   border-radius: 5px;
   background-color: rgb(3, 36, 37);
-  width: 97%;
-  height: 70%;
+  width: 91vw;
+  height: auto;
   justify-self: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1vw;
+  position: relative;
+  top: 15vh;
+  min-height: 72vh;
 }
 
 .ourProjects {
@@ -108,4 +124,32 @@ button:hover {
   font-size: 15px;
   justify-self: center;
   text-shadow: black 2px 2px 2px;
+  position: relative;
+  top: 16vh;
+}
+
+
+
+
+.projectMainContainer {
+  border: orange solid 2px;
+  width: 95%;
+  height: 90%;
+  justify-self: left;
+  margin: 3vw;
+  color: wheat;
+  display: flex;
+}
+
+.projectDetails {
+  background-color: rgb(3, 79, 81);
+  border: solid wheat 2px;
+  border-radius: 15px;
+  width: 25em;
+  height: 25em;
+  flex-wrap: wrap;
+  margin: 3vh;
+  padding: 1vw;
+  display: flex;
+  color: wheat;
 }
