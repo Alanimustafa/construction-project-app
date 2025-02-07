@@ -1,4 +1,4 @@
-const projectsArray = [
+export const projectsArray = [
     {
         id: 1,
         name: 'Project 1',
@@ -9,6 +9,12 @@ const projectsArray = [
             city: 'New York',
             state: 'NY',
             country: 'USA'
+        },
+        resourses: {
+            engineers: true,
+            labor: true,
+            equipments: true,
+            materials: true
         },
         legalContact: {
             firstName: "Mike",
@@ -30,6 +36,12 @@ const projectsArray = [
             state: 'CA',
             country: 'USA'
         },
+        resourses: {
+            engineers: true,
+            labor: true,
+            equipments: true,
+            materials: true
+        },
         legalContact: {
             firstName: "Rick",
             lastName: "Martin",
@@ -49,6 +61,12 @@ const projectsArray = [
             city: 'Chicago',
             state: 'IL',
             country: 'USA'
+        },
+        resourses: {
+            engineers: true,
+            labor: true,
+            equipments: true,
+            materials: true
         },
         legalContact: {
             firstName: "Alen",
