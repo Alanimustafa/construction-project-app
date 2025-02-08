@@ -10,7 +10,6 @@ function App() {
   const [projects, setProject] = useState(projectsArray)
   // console.log(projects);
   return (
-    <>
       <div className="projectAppMainContainer">
         <div className="headerHomePage">
           <img className="logo" src="../images/Logo.jpeg" alt="logo-image" />
@@ -33,7 +32,6 @@ function App() {
         </div>
         <p className='copyRight'>© 2025 Construction Corp. All Rights Reserved.</p>
       </div>
-    </>
   )
 }
 

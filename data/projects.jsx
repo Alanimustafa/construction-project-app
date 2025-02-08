@@ -76,5 +76,57 @@ export const projectsArray = [
         },
         image: 'project3.jpg',
         link: 'https://www.google.com'
+    },
+    {
+        id: 3,
+        name: 'Allstate Corp',
+        description: 'This is the third project',
+        projectType: "Residentail",
+        initialBudget: "$2,000,000",
+        location: {
+            city: 'Chicago',
+            state: 'IL',
+            country: 'USA'
+        },
+        resourses: {
+            engineers: true,
+            labor: true,
+            equipments: true,
+            materials: true
+        },
+        legalContact: {
+            firstName: "Alen",
+            lastName: "Ken",
+            phoneNumber: "1234567890",
+            emailAddress: "alen.ken.john@email.org"
+        },
+        image: 'project3.jpg',
+        link: 'https://www.google.com'
+    },
+    {
+        id: 3,
+        name: 'Allstate Corp',
+        description: 'This is the third project',
+        projectType: "Residentail",
+        initialBudget: "$2,000,000",
+        location: {
+            city: 'Chicago',
+            state: 'IL',
+            country: 'USA'
+        },
+        resourses: {
+            engineers: true,
+            labor: true,
+            equipments: true,
+            materials: true
+        },
+        legalContact: {
+            firstName: "Alen",
+            lastName: "Ken",
+            phoneNumber: "1234567890",
+            emailAddress: "alen.ken.john@email.org"
+        },
+        image: 'project3.jpg',
+        link: 'https://www.google.com'
     }
 ];
