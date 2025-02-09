@@ -153,6 +153,19 @@ button:hover {
   flex-wrap: wrap;
   margin: 3vh;
   padding: 1vw;
-  display: flex;
+  display: block;
   color: wheat;
+}
+
+.projectType {
+  color: orange;
+}
+
+.location {
+  display: block;
+}
+
+p {
+  margin: 0px;
+  ;
 }

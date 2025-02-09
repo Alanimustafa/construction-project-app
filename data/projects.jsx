@@ -5,11 +5,11 @@ export const projectsArray = [
         description: 'This is the first project',
         projectType: "Residentail",
         initialBudget: "$2,000,000",
-        location: {
+        location: [{
             city: 'New York',
             state: 'NY',
             country: 'USA'
-        },
+        }],
         resourses: {
             engineers: true,
             labor: true,
@@ -31,11 +31,11 @@ export const projectsArray = [
         description: 'This is the second project',
         projectType: "Residentail",
         initialBudget: "$2,000,000",
-        location: {
+        location: [{
             city: 'Los Angeles',
             state: 'CA',
             country: 'USA'
-        },
+        }],
         resourses: {
             engineers: true,
             labor: true,
@@ -57,11 +57,11 @@ export const projectsArray = [
         description: 'This is the third project',
         projectType: "Residentail",
         initialBudget: "$2,000,000",
-        location: {
+        location: [{
             city: 'Chicago',
             state: 'IL',
             country: 'USA'
-        },
+        }],
         resourses: {
             engineers: true,
             labor: true,
@@ -83,11 +83,11 @@ export const projectsArray = [
         description: 'This is the third project',
         projectType: "Residentail",
         initialBudget: "$2,000,000",
-        location: {
+        location: [{
             city: 'Chicago',
             state: 'IL',
             country: 'USA'
-        },
+        }],
         resourses: {
             engineers: true,
             labor: true,
@@ -109,11 +109,11 @@ export const projectsArray = [
         description: 'This is the third project',
         projectType: "Residentail",
         initialBudget: "$2,000,000",
-        location: {
+        location: [{
             city: 'Chicago',
             state: 'IL',
             country: 'USA'
-        },
+        }],
         resourses: {
             engineers: true,
             labor: true,
