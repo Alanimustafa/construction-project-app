@@ -167,5 +167,18 @@ button:hover {
 
 p {
   margin: 0px;
-  ;
+}
+
+.projectDescription {
+  width: 21vw;
+  height: 20vh;
+}
+
+.projectDescriptionHeader {
+  border-bottom: 1px wheat solid;
+}
+.detailsbtnContainer {
+  margin: 0px;;
+  display: flex;
+  justify-content: right;
 }

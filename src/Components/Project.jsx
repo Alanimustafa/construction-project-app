@@ -15,9 +15,16 @@ export default function Project({ project }) {
                         <Location key={index} location={locations} />
                     ))}
                 </div>
+                <div className="projectDescription">
+                <h4 className="projectDescriptionHeader">Project Description</h4>
+                    <p>{project.description}</p>
 
-
+                </div>
+                <div className="detailsbtnContainer">
+                    <button className="detailsBtn">Details</button>
+                </div>
             </div>
+            
 
         </>
     )

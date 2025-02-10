@@ -6,6 +6,7 @@ export default function Location( locations ) {
         <div className="location">
             <p>{locations.location.city}</p>
             <p>{locations.location.state} - {locations.location.country}</p>
+
         </div>
     )
 }

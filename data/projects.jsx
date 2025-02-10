@@ -2,7 +2,7 @@ export const projectsArray = [
     {
         id: 1,
         name: 'New York Highway',
-        description: 'This is the first project',
+        description: 'The Obala-Batchenga-Bouam road (about 280 km) is a section ofnational road No1, current transit itinerary between Cameroon and neighbouringcountries like Chad and the Central African Republic.',
         projectType: "Residentail",
         initialBudget: "$2,000,000",
         location: [{
